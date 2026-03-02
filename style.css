@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Freestyle Script";
+    src: url(fonts/FreestyleScriptStd.woff2) format("woff2"),
+         url(fonts/FreestyleScriptStd.woff) format("woff"),
+         url(fonts/FreestyleScriptStd.ttf) format("ttf");
+    font-family: "Gill Sans";
+    src: url(fonts/GillSansC.woff2) format("woff2"),
+         url(fonts/GillSansC.woff) format("woff"),
+         url(fonts/GillSansC.ttf) format("ttf");
+    font-display: swap;
+}
+
+body{
+    text-align: center;
+    font-family: 'Freestyle Script', sans-serif;
+    background-color: rgb(201, 128, 31);
+    margin: 0;
+}
+
+header{
+    font-size: 50px;
+    padding: 5px;
+}
+
+.content_box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 125px;
+    justify-content: space-evenly;
+    padding: 25px;
+}
+
+.box_element{
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    width: 350px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px black;
+    transition: transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1);
+    cursor: pointer;
+}
+
+.box_element.shrink{
+    transform: scale(0.9);
+}
+
+.box_element p{
+    box-sizing: border-box;
+    font-size: 25px;
+    color: black;
+    height: 50px;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.705);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;   
+}
+
+a { 
+    user-select: none; 
+    -webkit-user-drag: none;
+}
+
+#ramen{
+    background-image: url("img de recetas/Ramen.jpg");
+}
+
+#borsch{
+    background-image: url("img de recetas/Borch Ruso.jpg");
+}
+
+#ropaVieja{
+    background-image: url("img de recetas/ropa-vieja.webp");
+}
+
+#ragu{
+    background-image: url("img de recetas/ragu-alla-bolognese.1024x1024.jpg");
+}
+
+#cuscus{
+    background-image: url("img de recetas/cuscus.jpg");
+}
+
+#limaPay{
+    background-image: url("img de recetas/limapay.avif");
+}
+
+footer{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    background-color: rgb(202, 202, 202);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#message{
+    font-size: 25px;
+}
