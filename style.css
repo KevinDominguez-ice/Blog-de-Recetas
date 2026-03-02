@@ -2,7 +2,7 @@
     font-family: "Freestyle Script";
     src: url(fonts/FREESCPT.woff2) format("woff2"),
          url(fonts/FREESCPT.woff) format("woff"),
-         url(fonts/FREESCPT.ttf) format("ttf");
+         url(fonts/FREESCPT.ttf) format("truetype");
 }
 
 body{
@@ -89,4 +89,5 @@ footer{
 
 #message{
     font-size: 25px;
+
 }
