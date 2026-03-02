@@ -3,6 +3,9 @@
     src: url(fonts/FreestyleScriptStd.woff2) format("woff2"),
          url(fonts/FreestyleScriptStd.woff) format("woff"),
          url(fonts/FreestyleScriptStd.ttf) format("ttf");
+    font-display: swap;
+}
+@font-face{
     font-family: "Gill Sans";
     src: url(fonts/GillSansC.woff2) format("woff2"),
          url(fonts/GillSansC.woff) format("woff"),
@@ -96,5 +99,6 @@ footer{
     font-size: 25px;
 
 }
+
 
 
