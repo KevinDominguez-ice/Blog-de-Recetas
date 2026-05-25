@@ -1,5 +1,3 @@
-<p>Puede ver la página en el enlace a continuación</p>
-<a href="https://kevindominguez-ice.github.io/Blog-de-Recetas/" target = "_blank">Aquí</a>
 <p>V2</p>
 <p>Adición de comentarios, meta etiquetas y favicon</p>
 <p>Uso de variables para reducir el código del CSS</p>
