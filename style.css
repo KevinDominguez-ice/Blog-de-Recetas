@@ -1,0 +1,90 @@
+/*Diseño general de la pagina*/
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; /*Respaldo en sans-serif*/
+    margin: 0;
+    text-shadow: 3px 3px 10px gray;
+}
+
+/*Diseño del mensaje inicial*/
+header{
+    padding: 200px;
+}
+
+/*Diseño de lel contenido del mensaje incial*/
+.welcome_message{
+        font-size: var(--font-g);
+}
+
+/*Diseño del contenedor de las recetas*/
+.content_box{
+    /*Activar flexbox*/
+    display: flex;
+    /*Permitir modificar dimensiones*/
+    flex-wrap: wrap;
+    /*Orden de los elementos en fila*/
+    flex-direction: row;
+    /*Espacion interno entre elementos*/
+    gap: 125px;
+    /*Espacion entre el contenedor y los elementos*/
+    justify-content: space-evenly;
+    padding: 25px;
+}
+/*Diseño de las recetas*/
+.box_element{
+    /*Ajuste de la caja*/
+    box-sizing: border-box; 
+    background-image: var(--bg-img);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+    width: 350px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px black;
+    transition: transform 0.25s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.box_element.shrink{
+    transform: scale(0.9);
+}
+
+/*Diseño del texto de las recetas*/
+.box_element p{
+    box-sizing: border-box;
+    font-size: 25px;
+    color: black;
+    height: 50px;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.705);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;   
+}
+
+/*Ajustes adicionales a las recetas*/
+a { 
+    /*El usuario no puede seleccionarlos*/
+    user-select: none; 
+    /*El usuario no puede arrastrar los enlaces*/
+    -webkit-user-drag: none; 
+}
+
+/*Diseño del footer footer*/
+footer{
+    box-sizing: border-box;
+    text-shadow: none;
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    background-color: rgb(243, 243, 243);
+    font-family: 'Gill Sans', sans-serif;
+}
+#message{
+    font-size: 25px;
+}
