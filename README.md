@@ -1,5 +1,5 @@
 <p>V2</p>
-<p>Adición de meta etiquetas y favicon</p>
+<p>Adición de comentarios, meta etiquetas y favicon</p>
 <p>Uso de variables para reducir el código del CSS</p>
 <p>Cambio de letra y paleta de colores</p>
 <p>Cambio del título de la página</p>
